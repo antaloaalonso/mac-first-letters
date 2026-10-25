@@ -1,0 +1,21 @@
+# Lean Mac environment for render/seed/triage/ink scripts (Python 3.12+).
+# For ink inference, also put villa/vesuvius/src on PYTHONPATH, or install
+# vesuvius with `uv sync --extra models-core` (see ScrollPrize/villa).
+torch>=2.12
+numpy
+pillow
+tifffile
+imagecodecs
+zarr>=3,<4
+numcodecs>=0.15.1,<0.17
+fsspec
+s3fs
+scipy
+scikit-image
+opencv-python-headless
+numba
+timm
+monai
+einops
+dynamic-network-architectures
+huggingface-hub

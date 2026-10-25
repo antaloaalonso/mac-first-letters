@@ -1,0 +1,10 @@
+{
+ "mode": "random_seed",
+ "generations": 150,
+ "min_area_cm": 2.0,
+ "thread_limit": 4,
+ "use_cuda": false,
+ "voxelsize": 9.612,
+ "normal_grid_path": "data/PHerc1203_2um/normal-grids",
+ "cache_root": "cache/grow_1203"
+}
