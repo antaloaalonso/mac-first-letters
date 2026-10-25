@@ -19,7 +19,13 @@ The documented [Vesuvius Challenge](https://scrollprize.org) workflow assumes a 
 ## Validation
 
 - **Renderer vs. official surface volume.** I re-rendered PHerc0800 segment `20251029010146` from its tifxyz. At the centre layer it matches the published surface volume with normalised cross-correlation **0.968** and no offset (`results/renderer_vs_official_pherc0800.png`). The published volumes use the opposite normal sign, so pass `--flip`.
-- **Positive control.** `ink_9um` holds out PHerc1667 (Scroll 4) segment `w018` from training. Rendered with this pipeline from the 2.4 µm volume at pyramid level 2, it shows rows of Greek letters in the forward direction and noise in reverse. No image is included here; see the data licence below.
+- **Held-out benchmark.** `bench/` scores `ink_9um` on the three published validation regions of its label set, against the published ink labels:
+  - `pherc0139-w016`;
+  - `pherc0814-46527`;
+  - `pherc1667-w029`.
+
+  It compares two inputs: the official surface volume, and this pipeline's streaming render of the same mesh. Results are in `bench/RESULTS.md`.
+- **Sanity check.** PHerc1667 (Scroll 4) segment `w018`, rendered from the 2.4 µm volume at level 2, shows rows of Greek letters in the forward direction and noise in reverse. w018 is part of `ink_9um`'s labelled training set, so this only checks orientation and scale; it is not a held-out test. No image is included here; see the data licence below.
 - **A/B on the training recipe.** Sampling level 2 directly was visually equivalent to sampling level 1 and mean-pooling 2×2×2, and it uses 8× less bandwidth.
 - **Seeding.** Random GrowPatch seeds mostly grew sheet-hopping "starbursts". The official `vc_render_tifxyz` shows the same thing (`results/starburst_official_vs_mine.jpg`). Seeded patches were clean recto 10/12 times on PHerc1203 and 15/19 times on PHerc0846A, versus about 4/12 with random seeds (`results/pherc1203_growpatch_triage.jpg`).
 

@@ -75,9 +75,14 @@ def load_tifxyz(d, step=None):
     valid = (xyz[..., 2] > 0) & np.isfinite(xyz).all(-1)
     up = step or round(1 / meta["scale"][0])
     H, W = xyz.shape[:2]
-    # upsample to ~1 px per voxel; invalid neighbours are masked out afterwards
-    big = cv2.resize(np.where(valid[..., None], xyz, 0), (W * up, H * up), interpolation=cv2.INTER_LINEAR)
-    vm = cv2.resize(valid.astype(np.float32), (W * up, H * up), interpolation=cv2.INTER_LINEAR) > 0.999
+    # upsample to ~1 px per voxel, output pixel j <-> mesh coordinate j / up
+    # (the published surface volumes' grid; cv2.resize's pixel-centre
+    # convention would shift everything by (up - 1) / 2 px); invalid
+    # neighbours are masked out afterwards
+    gy, gx = np.meshgrid(np.arange(H * up, dtype=np.float32) / up,
+                         np.arange(W * up, dtype=np.float32) / up, indexing="ij")
+    big = cv2.remap(np.where(valid[..., None], xyz, 0), gx, gy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
+    vm = cv2.remap(valid.astype(np.float32), gx, gy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT) > 0.999
     return big, vm
 
 
