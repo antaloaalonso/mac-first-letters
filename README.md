@@ -4,7 +4,7 @@ Hunt for First Letters on an Apple-silicon laptop. No NVIDIA GPU, no bulk volume
 
 **seed → GrowPatch surface → stream-render from the open-data bucket → ink inference on MPS**
 
-The documented [Vesuvius Challenge](https://scrollprize.org) workflow assumes a CUDA GPU and local copies of multi-hundred-GB volumes. This repo assumes neither. Everything here was run on an M5 Pro MacBook with 64 GB of RAM.
+The [Vesuvius Challenge](https://scrollprize.org) tutorials are written around CUDA GPUs, and several steps (ink models, spiral fitting, the `vesuvius[models]` install) did not run on a Mac. This repo gets the whole First Letters loop running on Apple silicon, without downloading whole volumes. `render.py` is a small Python streaming renderer. The official `vc_render_tifxyz` in the VC3D macOS release can also stream remote volumes (`-v https://...`). Everything here was run on an M5 Pro MacBook with 64 GB of RAM.
 
 | Stage | Script | What it does |
 |---|---|---|
@@ -40,6 +40,35 @@ gh release download latest -R ScrollPrize/villa -p '*macos-arm64.zip' && unzip -
 ```
 
 If you install `vesuvius` itself instead of using `PYTHONPATH`, `uv sync --extra models-core` in `villa/vesuvius` avoids building the C++ bindings. That extra exists only once [ScrollPrize/villa PR: models-core extra] is merged.
+
+## One command: published representations → ink review sheets
+
+```bash
+./first_letters_mac.sh PHerc0846A 20260319102732 1300 1500
+```
+
+For one band of one scroll (z in the level-2 frame of a 2.4 µm scan), this runs:
+1. fetches the published surface-m7 prediction and normal grids, unless they are already local;
+2. builds a smoothed umbilicus with `vc_gen_umbilicus`;
+3. seeds and grows clean GrowPatch patches;
+4. extracts surface tracks on the CPU;
+5. fits a spiral on MPS;
+6. stream-renders each fitted winding and runs the `ink_9um` ensemble in both directions;
+7. writes void-masked montages to `work/<scroll>_<z0>_<z1>/`.
+
+Every stage is skipped when its output exists, so a run resumes where it stopped. Knobs: `STEPS`, `MAX_WINDINGS`, `DEVICE`, `CACHE_GB`, `DATA_DIR`.
+
+Validation run, PHerc0846A z 1300–1500 on an M5 Pro (`STEPS=600 MAX_WINDINGS=6`), 30 min in total:
+
+| Stage | Result | Time |
+|---|---|---|
+| umbilicus | — | 9 s |
+| seeds + GrowPatch | 12 patches | 9.5 min |
+| tracks | 29,104 tracks | 5 min |
+| MPS fit | 600 steps at 3.6 it/s; 80 windings | 3 min |
+| render + ink | 6 outermost windings | 12 min |
+
+`results/e2e_PHerc0846A_w086_surface.jpg` shows one fitted winding. A real hunt uses the default 3000 steps and all windings.
 
 ## Usage
 

@@ -17,3 +17,10 @@ upstream/villa/
 spiral/runs/
 spiral/*/tracks/
 __pycache__/
+# local environment (often symlinks)
+/villa
+/.venv
+/tools
+/checkpoints
+/data
+work/
