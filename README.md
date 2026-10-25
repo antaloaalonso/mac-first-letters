@@ -66,9 +66,10 @@ GrowPatch quirks:
 
 `villa/spiral-fitting` runs on MPS once ScrollPrize/villa PR "spiral-fitting: make weighted track sampling work on MPS" is merged. Without it:
 - `torch.multinomial` asks Metal for an 80 GB buffer and aborts;
-- the crossing seed comes back negative.
+- the crossing seed comes back negative;
+- driver memory grows by 0.35 GB per step, because MPS keeps a compiled graph with its own buffers for every new track-sample size.
 
-On MPS, driver memory still grows by about 0.35 GB per step, so long fits are more reliable on CPU: about 0.5 it/s and 4.7 GB peak on a 1000-slice PHerc0846A band.
+With it, a 1000-slice PHerc0846A band (144k tracks) runs at up to about 1.1 it/s on an M5 Pro, vs. 0.47 it/s on CPU. It holds about 4.5 GB between steps and peaks around 10 GB. A ~2 MB/step residual remains, so for fits much longer than ~10k steps, resume from the headless checkpoints (`FIT_SPIRAL_RESUME_PATH`).
 
 ```bash
 source spiral/fit_env.sh
