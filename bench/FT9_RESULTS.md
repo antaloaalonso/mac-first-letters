@@ -58,3 +58,22 @@ The final iteration is reported; no checkpoint was selected on held-out data.
 3. **Next step:** validate on a third scroll, either by mapping more aligned labels from other scrolls onto their 9 µm scans, or with teacher labels from 2.4 µm predictions.
 
 Reproduce: `fetch_native9.py <case> ft9/data` for w035 w039 w040 w041 w044. Then `ft9.py ft9/data ft9/ckpt/ft9_seed42.pth --lr 3e-5 --iters 2000` (seed43: `--base …seed43… --seed 1`). Then `ft9/eval_ft.sh <tag> <ckpt> [ensemble ckpt]`.
+
+## Test-time augmentation (added Oct 26)
+
+These come from a follow-up pass over the same two held-out regions, using the same warp and scorer. Its ft42 reproduction matched 0.853 exactly. The pass reported every variant it tried, about 24 per input, so the gains below are small and selected on only two regions.
+
+| sweep input (mac9) | mean AUROC | mean AP |
+|---|---|---|
+| ft seed42 | 0.853 | 0.766 |
+| **ft seed42, `--tta-mirror`** (4 flips) | **0.863** | **0.792** |
+| ft seed42 + base seed43, both `--tta-mirror` | 0.870 | 0.793 |
+| full 8-way dihedral TTA | 0.861 | 0.789 |
+| depth-window shifts / pooling (±1, ±2) | 0.851–0.866 | 0.770–0.800 |
+| `--direction both` (forward + reverse averaged) | 0.776 | 0.617 |
+
+- **Mirror TTA improves both regions** (w016 0.868 → 0.885, PHerc0814 0.838 → 0.842) and costs 4× inference. It is the standard choice, not the argmax, so it is the one adopted.
+- **`--direction reverse` scores at chance (0.52)**, so averaging it with the forward pass halves the signal. Use the forward direction only.
+- **The base seed43 partner is weakly selected:** the "free side result" above was measured on the same regions.
+
+Updated recommendation: screen with `ft9_seed42.pth --tta-mirror`.
