@@ -104,7 +104,7 @@ GrowPatch quirks:
 - the crossing seed comes back negative;
 - driver memory grows by 0.35 GB per step, because MPS keeps a compiled graph with its own buffers for every new track-sample size.
 
-With it, a 1000-slice PHerc0846A band (144k tracks) runs at up to about 1.1 it/s on an M5 Pro, vs. 0.47 it/s on CPU. It holds about 4.5 GB between steps and peaks around 10 GB. A ~2 MB/step residual remains, so for fits much longer than ~10k steps, resume from the headless checkpoints (`FIT_SPIRAL_RESUME_PATH`).
+With it, a 1000-slice PHerc0846A band (144k tracks) runs at up to about 1.1 it/s on an M5 Pro, vs. 0.47 it/s on CPU. It holds about 4.5 GB between steps and peaks around 10 GB. On a second scroll (PHerc0826, 514k tracks) MPS runs 0.4–0.5 it/s vs. 0.2 it/s on CPU. A residual of 2–4 MB/step remains, so for fits much longer than ~5k steps, resume from the headless checkpoints (`FIT_SPIRAL_RESUME_PATH`).
 
 ```bash
 source spiral/fit_env.sh
