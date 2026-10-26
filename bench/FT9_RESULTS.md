@@ -77,3 +77,17 @@ These come from a follow-up pass over the same two held-out regions, using the s
 - **The base seed43 partner is weakly selected:** the "free side result" above was measured on the same regions.
 
 Updated recommendation: screen with `ft9_seed42.pth --tta-mirror`.
+
+### A second fine-tune (declared before training)
+
+The same recipe from base seed42, with half the learning rate (`--lr 1.5e-5`) as regularisation and a different sampling order (`--seed 2`). Final iteration, sweep input:
+
+| model | w016 AUROC / AP | 46527 AUROC / AP | mean AUROC | mean AP |
+|---|---|---|---|---|
+| ft seed42, lr 1.5e-5 | 0.889 / 0.749 | 0.821 / 0.785 | 0.855 | 0.767 |
+| the same, `--tta-mirror` | 0.901 / 0.782 | 0.813 / 0.791 | 0.857 | 0.787 |
+| ft seed42 + ft seed42 lr 1.5e-5, both `--tta-mirror` | 0.896 / 0.781 | 0.829 / 0.804 | 0.863 | 0.792 |
+
+Neutral. It matches ft seed42 on the mean but is lower on PHerc0814 (0.821 vs. 0.838), and pairing it with ft seed42 gives the same 0.863 as ft seed42 with `--tta-mirror` alone. The recommendation is unchanged.
+
+Why a quiet band is weak evidence at 9 µm: [SCORE_NOTE.md](SCORE_NOTE.md).
