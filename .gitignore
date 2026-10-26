@@ -25,3 +25,4 @@ __pycache__/
 /data
 work/
 atlas/.mesh_cache/
+bench/ft9/ckpt/
