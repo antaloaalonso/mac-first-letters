@@ -1,0 +1,2835 @@
+{
+ "surfaces": [
+  {
+   "scroll": "PHerc0800",
+   "scan": "8.64 \u00b5m",
+   "source": "PHerc0800 published auto-grown",
+   "kind": "published segments",
+   "surface": "20251028213516",
+   "area_cm2": 1.7495673672027565,
+   "z_um": [
+    95761.4146875,
+    112985.47406250001
+   ]
+  },
+  {
+   "scroll": "PHerc0800",
+   "scan": "8.64 \u00b5m",
+   "source": "PHerc0800 published auto-grown",
+   "kind": "published segments",
+   "surface": "20251028220042",
+   "area_cm2": 1.6320005328754608,
+   "z_um": [
+    96352.9509375,
+    112614.59531250001
+   ]
+  },
+  {
+   "scroll": "PHerc0800",
+   "scan": "8.64 \u00b5m",
+   "source": "PHerc0800 published auto-grown",
+   "kind": "published segments",
+   "surface": "20251028220955",
+   "area_cm2": 1.5757809097548188,
+   "z_um": [
+    94922.47406250001,
+    111479.38031250001
+   ]
+  },
+  {
+   "scroll": "PHerc0800",
+   "scan": "8.64 \u00b5m",
+   "source": "PHerc0800 published auto-grown",
+   "kind": "published segments",
+   "surface": "20251028222030",
+   "area_cm2": 2.3890148444700974,
+   "z_um": [
+    93833.2771875,
+    113951.51718750001
+   ]
+  },
+  {
+   "scroll": "PHerc0800",
+   "scan": "8.64 \u00b5m",
+   "source": "PHerc0800 published auto-grown",
+   "kind": "published segments",
+   "surface": "20251028225813",
+   "area_cm2": 1.8820154501447957,
+   "z_um": [
+    95958.0675,
+    114421.4015625
+   ]
+  },
+  {
+   "scroll": "PHerc0800",
+   "scan": "8.64 \u00b5m",
+   "source": "PHerc0800 published auto-grown",
+   "kind": "published segments",
+   "surface": "20251029010146",
+   "area_cm2": 0.38283241187070377,
+   "z_um": [
+    100378.51593750001,
+    107982.5175
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163217042",
+   "area_cm2": 3.816434634985469,
+   "z_um": [
+    55514.20064648437,
+    74578.78910937501
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163219195",
+   "area_cm2": 3.8230371781807446,
+   "z_um": [
+    56626.87983203125,
+    74444.34292675782
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163223390",
+   "area_cm2": 3.8235270704594995,
+   "z_um": [
+    56270.12271972656,
+    77041.86365429687
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163227956",
+   "area_cm2": 3.824824497021048,
+   "z_um": [
+    55616.00782519532,
+    77005.24762890625
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163230146",
+   "area_cm2": 3.8125974038591957,
+   "z_um": [
+    56797.265489257814,
+    74626.56365136719
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163231537",
+   "area_cm2": 3.83756918439261,
+   "z_um": [
+    53417.7800546875,
+    77664.78407226563
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc1203 published raw",
+   "kind": "published segments",
+   "surface": "auto_grown_20250923163331524",
+   "area_cm2": 3.8202282150554856,
+   "z_um": [
+    55970.51586328125,
+    75906.8034375
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 random GrowPatch",
+   "kind": "GrowPatch, random seeds",
+   "surface": "auto_grown_20261024170423615",
+   "area_cm2": 6.084132581426712,
+   "z_um": [
+    9.883502131462098,
+    26167.628074218752
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 random GrowPatch",
+   "kind": "GrowPatch, random seeds",
+   "surface": "auto_grown_20261024180420733",
+   "area_cm2": 44.18052099209005,
+   "z_um": [
+    327.43911016845703,
+    37155.85949707031
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 random GrowPatch",
+   "kind": "GrowPatch, random seeds",
+   "surface": "auto_grown_20261024181234362",
+   "area_cm2": 4.6417657256175655,
+   "z_um": [
+    30.298073112487792,
+    21622.088399414064
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 random GrowPatch",
+   "kind": "GrowPatch, random seeds",
+   "surface": "auto_grown_20261024182305340",
+   "area_cm2": 9.289691898029487,
+   "z_um": [
+    7.696877915382386,
+    27049.7261953125
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 random GrowPatch",
+   "kind": "GrowPatch, random seeds",
+   "surface": "auto_grown_20261024182509680",
+   "area_cm2": 20.72104832104396,
+   "z_um": [
+    65.4358659954071,
+    55412.170927734376
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 random GrowPatch",
+   "kind": "GrowPatch, random seeds",
+   "surface": "auto_grown_20261024182935303",
+   "area_cm2": 7.987056100697964,
+   "z_um": [
+    17.92794072532654,
+    31397.28589160156
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202430406",
+   "area_cm2": 3.5139665405103067,
+   "z_um": [
+    5.5024745936393735,
+    19693.69497949219
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202509025",
+   "area_cm2": 3.8015238438647394,
+   "z_um": [
+    5530.92983569336,
+    29352.565212890626
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202550157",
+   "area_cm2": 3.624969008994693,
+   "z_um": [
+    2746.690013671875,
+    27031.5535078125
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202627296",
+   "area_cm2": 3.7643669399376867,
+   "z_um": [
+    23575.612412109374,
+    40932.772400390626
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202708624",
+   "area_cm2": 3.803185152021101,
+   "z_um": [
+    10273.24388232422,
+    32264.0860078125
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202828671",
+   "area_cm2": 1.1252064675156626,
+   "z_um": [
+    14.508017166137696,
+    12129.11433984375
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202839644",
+   "area_cm2": 3.7483378397957283,
+   "z_um": [
+    4885.5016944580075,
+    23651.637793945312
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202917528",
+   "area_cm2": 3.46311417477173,
+   "z_um": [
+    17489.588989746095,
+    40372.15531640625
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024202955762",
+   "area_cm2": 2.8011278563085686,
+   "z_um": [
+    29.924123745918273,
+    21701.95529589844
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203025830",
+   "area_cm2": 1.0681953397878994,
+   "z_um": [
+    59.05504684066773,
+    13121.267044921875
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203121052",
+   "area_cm2": 3.35088387218818,
+   "z_um": [
+    31.5215869846344,
+    20978.811870117188
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203153626",
+   "area_cm2": 3.526090584824253,
+   "z_um": [
+    18267.695173828124,
+    40002.7973203125
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203228161",
+   "area_cm2": 3.8183216132468325,
+   "z_um": [
+    11439.739634765625,
+    31089.7323984375
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203311837",
+   "area_cm2": 3.636657560137155,
+   "z_um": [
+    2956.0725087890623,
+    25797.54964746094
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203347466",
+   "area_cm2": 3.9024347627591474,
+   "z_um": [
+    17065.392609375,
+    31449.689595703127
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203425605",
+   "area_cm2": 3.6822824613964054,
+   "z_um": [
+    3281.203512817383,
+    24553.276716796874
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203504683",
+   "area_cm2": 3.535350470653862,
+   "z_um": [
+    14679.513984375,
+    36988.3840078125
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203541198",
+   "area_cm2": 3.731437555698836,
+   "z_um": [
+    18122.70322265625,
+    37389.002124023435
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203618138",
+   "area_cm2": 3.54343082465716,
+   "z_um": [
+    15707.7163828125,
+    34706.81998828125
+   ]
+  },
+  {
+   "scroll": "PHerc1203",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc1203 seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024203655175",
+   "area_cm2": 3.486966250455989,
+   "z_um": [
+    2531.8585283203124,
+    25857.962569335938
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024205632953",
+   "area_cm2": 3.5983956595402438,
+   "z_um": [
+    9859.94665576172,
+    29980.245708984374
+   ],
+   "radius_mm": [
+    15.876721548082626,
+    18.71919743828706,
+    21.1913091615419
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024205803630",
+   "area_cm2": 2.6955254345373802,
+   "z_um": [
+    18.278126522541047,
+    16309.196200195312
+   ],
+   "radius_mm": [
+    5.902633189393776,
+    9.38001935051199,
+    11.20971724229709
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024205834259",
+   "area_cm2": 3.5410317750056186,
+   "z_um": [
+    14048.068240722656,
+    34799.52087597657
+   ],
+   "radius_mm": [
+    15.05523311976172,
+    18.789771206967206,
+    21.732943673042115
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024205921966",
+   "area_cm2": 3.486241068371387,
+   "z_um": [
+    3976.701585205078,
+    26580.800926757813
+   ],
+   "radius_mm": [
+    5.617865420258201,
+    7.4982627730296505,
+    9.904684646994248
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210045262",
+   "area_cm2": 3.546903043626159,
+   "z_um": [
+    545.1190613250733,
+    21988.092990234374
+   ],
+   "radius_mm": [
+    13.789744306863822,
+    16.975341938625455,
+    19.534482412784833
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210127484",
+   "area_cm2": 3.595922428169415,
+   "z_um": [
+    3185.111086303711,
+    25106.961708984374
+   ],
+   "radius_mm": [
+    15.211516548920295,
+    17.95209164552581,
+    20.211422233739793
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210217800",
+   "area_cm2": 3.5540246115159104,
+   "z_um": [
+    779.6918795471191,
+    21978.34253613281
+   ],
+   "radius_mm": [
+    2.6223420336798178,
+    4.523930069419263,
+    7.656880351796551
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210257295",
+   "area_cm2": 3.412467837919811,
+   "z_um": [
+    26.006486383438112,
+    21585.090647460936
+   ],
+   "radius_mm": [
+    3.4013462235126477,
+    5.4056077057803416,
+    9.768592018024265
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210334798",
+   "area_cm2": 3.4738053949083736,
+   "z_um": [
+    4842.851084472656,
+    23713.48923046875
+   ],
+   "radius_mm": [
+    6.306527296372173,
+    9.74977873646656,
+    12.65648073520619
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210409946",
+   "area_cm2": 3.61016804041027,
+   "z_um": [
+    10759.840822265625,
+    31735.390807617187
+   ],
+   "radius_mm": [
+    10.127058124471798,
+    12.95320517948504,
+    15.760741328873548
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210448465",
+   "area_cm2": 3.795417283285492,
+   "z_um": [
+    11379.015777832032,
+    33811.80339550781
+   ],
+   "radius_mm": [
+    3.7970042964269366,
+    6.239682035554124,
+    9.93862846136405
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210612442",
+   "area_cm2": 1.7692699187150458,
+   "z_um": [
+    11.657650413036347,
+    15082.65478125
+   ],
+   "radius_mm": [
+    6.451684761125049,
+    9.499459280003737,
+    11.46442281176314
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210630505",
+   "area_cm2": 3.5105802634882286,
+   "z_um": [
+    6688.082282958984,
+    30080.66717285156
+   ],
+   "radius_mm": [
+    6.356619206445749,
+    8.545968955047007,
+    12.105500317260528
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210742620",
+   "area_cm2": 3.812254011253127,
+   "z_um": [
+    13968.826734375,
+    34483.99571191406
+   ],
+   "radius_mm": [
+    7.030944200036395,
+    10.451338414801002,
+    13.717998341049034
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210823799",
+   "area_cm2": 3.5345946011021345,
+   "z_um": [
+    12258.42577734375,
+    33137.628134765626
+   ],
+   "radius_mm": [
+    10.892876407341104,
+    12.914106545545582,
+    15.288034203049932
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210902436",
+   "area_cm2": 3.6175577306772593,
+   "z_um": [
+    7677.745747558593,
+    25770.34458984375
+   ],
+   "radius_mm": [
+    5.56274856049186,
+    7.524726648052326,
+    11.418580914324664
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024210942471",
+   "area_cm2": 3.9458179768357673,
+   "z_um": [
+    1514.1281879882813,
+    17398.29610986328
+   ],
+   "radius_mm": [
+    0.4682983124203462,
+    1.9758724601411766,
+    4.7303322949787745
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211022432",
+   "area_cm2": 3.5893747868413417,
+   "z_um": [
+    2535.2339337158205,
+    22831.524870117188
+   ],
+   "radius_mm": [
+    1.5243260511369283,
+    3.0574296768412488,
+    5.860141760405894
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211056027",
+   "area_cm2": 3.801199748556705,
+   "z_um": [
+    20808.733913085936,
+    38858.56803808594
+   ],
+   "radius_mm": [
+    8.097002881363972,
+    13.858211490321006,
+    20.595994605233134
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211138388",
+   "area_cm2": 3.7594242489127003,
+   "z_um": [
+    17166.50634375,
+    35153.18427832031
+   ],
+   "radius_mm": [
+    8.343148244850578,
+    11.536697883317952,
+    17.209369634748192
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211219080",
+   "area_cm2": 3.4807997357000375,
+   "z_um": [
+    8.125174458503723,
+    22120.2720703125
+   ],
+   "radius_mm": [
+    6.251948947967626,
+    9.55907465292157,
+    11.633250117340703
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211254477",
+   "area_cm2": 3.5721549736756875,
+   "z_um": [
+    11464.96292138672,
+    31911.901013671875
+   ],
+   "radius_mm": [
+    18.82718111943575,
+    21.37077832488187,
+    23.278264336122604
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211336312",
+   "area_cm2": 3.709693052127177,
+   "z_um": [
+    14483.394922851563,
+    36131.70042773437
+   ],
+   "radius_mm": [
+    15.711563260938522,
+    18.99373720853267,
+    22.864751693804383
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211415750",
+   "area_cm2": 3.4975932912811927,
+   "z_um": [
+    6802.602598388672,
+    29871.294064453126
+   ],
+   "radius_mm": [
+    5.709056099046845,
+    8.53113149653387,
+    15.880650391306384
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A seeded GrowPatch",
+   "kind": "GrowPatch, seedmap seeds",
+   "surface": "auto_grown_20261024211454347",
+   "area_cm2": 3.8202966898356063,
+   "z_um": [
+    5563.867245117188,
+    24014.462633789062
+   ],
+   "radius_mm": [
+    0.7000002492970083,
+    2.0106905209078842,
+    4.53270141039009
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w010_spliced",
+   "area_cm2": 0.9127815101372918,
+   "z_um": [
+    5769.112543945313,
+    15373.159646484375
+   ],
+   "radius_mm": [
+    0.5714465247266115,
+    1.030070827701992,
+    2.4282937192945666
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w011_spliced",
+   "area_cm2": 1.086110063200018,
+   "z_um": [
+    5768.151578613281,
+    15377.999673339844
+   ],
+   "radius_mm": [
+    0.6561846862219348,
+    1.1460446328676395,
+    2.853210521478532
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w012_spliced",
+   "area_cm2": 1.241904269817027,
+   "z_um": [
+    5771.933252929687,
+    15375.078057128907
+   ],
+   "radius_mm": [
+    0.7308899722028966,
+    1.2814625664366641,
+    3.171181053606949
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w013_spliced",
+   "area_cm2": 1.353404035969934,
+   "z_um": [
+    5771.998959960938,
+    15376.946014160156
+   ],
+   "radius_mm": [
+    0.8066108089830492,
+    1.4269938367812909,
+    3.4225474581165773
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w014_spliced",
+   "area_cm2": 1.453703642857272,
+   "z_um": [
+    5769.999588867187,
+    15378.79637109375
+   ],
+   "radius_mm": [
+    0.8862552236450502,
+    1.5761268273075084,
+    3.6422052994534684
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w015_spliced",
+   "area_cm2": 1.546123222284708,
+   "z_um": [
+    5776.592585449219,
+    15372.006253417969
+   ],
+   "radius_mm": [
+    0.96450237137613,
+    1.7205600096850306,
+    3.84768908294029
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w016_spliced",
+   "area_cm2": 1.632632536393727,
+   "z_um": [
+    5779.851536865234,
+    15377.574924316406
+   ],
+   "radius_mm": [
+    1.0451794309869826,
+    1.86817719575108,
+    4.074764363689883
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w017_spliced",
+   "area_cm2": 1.721112457204983,
+   "z_um": [
+    5769.139530761719,
+    15376.820466796875
+   ],
+   "radius_mm": [
+    1.127238451732511,
+    2.0116946911839517,
+    4.271049772671971
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w018_spliced",
+   "area_cm2": 1.816164274342809,
+   "z_um": [
+    5767.385974365235,
+    15379.058025878907
+   ],
+   "radius_mm": [
+    1.2112198640908902,
+    2.144667564188876,
+    4.47094190962283
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w019_spliced",
+   "area_cm2": 1.9142413128723685,
+   "z_um": [
+    5768.515900634766,
+    15376.953054199219
+   ],
+   "radius_mm": [
+    1.3041913379187091,
+    2.279634815954775,
+    4.715342870031355
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w020_spliced",
+   "area_cm2": 2.020166436147921,
+   "z_um": [
+    5768.084698242187,
+    15378.566396484375
+   ],
+   "radius_mm": [
+    1.4050400017260163,
+    2.432928796015509,
+    4.951252276989465
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w021_spliced",
+   "area_cm2": 2.124122487246665,
+   "z_um": [
+    5770.475378173828,
+    15378.409168945313
+   ],
+   "radius_mm": [
+    1.519930125673163,
+    2.581694170994732,
+    5.140585120645542
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w022_spliced",
+   "area_cm2": 2.230576237364931,
+   "z_um": [
+    5770.035962402344,
+    15377.061001464845
+   ],
+   "radius_mm": [
+    1.6326777418629073,
+    2.734698893362401,
+    5.315135131262544
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w023_spliced",
+   "area_cm2": 2.3427447716564442,
+   "z_um": [
+    5768.746461914063,
+    15377.830712402343
+   ],
+   "radius_mm": [
+    1.746021375482726,
+    2.882110552839652,
+    5.515556060408761
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w024_spliced",
+   "area_cm2": 2.455748926024701,
+   "z_um": [
+    5773.739022949218,
+    15372.039106933595
+   ],
+   "radius_mm": [
+    1.8541855397884075,
+    3.024985533357376,
+    5.725049425581659
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w025_spliced",
+   "area_cm2": 2.5779902856786103,
+   "z_um": [
+    5768.139845214844,
+    15377.278069335938
+   ],
+   "radius_mm": [
+    1.9594050386033528,
+    3.185900242377403,
+    5.946359366089933
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w026_spliced",
+   "area_cm2": 2.6972948622598882,
+   "z_um": [
+    5767.22170678711,
+    15378.826877929687
+   ],
+   "radius_mm": [
+    2.0654006805290077,
+    3.348879821933345,
+    6.189624632806583
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w027_spliced",
+   "area_cm2": 2.812636047523685,
+   "z_um": [
+    5773.51726171875,
+    15379.173013183594
+   ],
+   "radius_mm": [
+    2.177088435787493,
+    3.510429136473288,
+    6.415424481753542
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w028_spliced",
+   "area_cm2": 2.92631009059742,
+   "z_um": [
+    5768.461927001953,
+    15377.817805664063
+   ],
+   "radius_mm": [
+    2.2847472598365512,
+    3.6639945420872495,
+    6.63748873538026
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w029_spliced",
+   "area_cm2": 3.0404430144667365,
+   "z_um": [
+    5767.476908203125,
+    15376.962440917969
+   ],
+   "radius_mm": [
+    2.3967368230624837,
+    3.8092018470671656,
+    6.837606247786943
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w030_spliced",
+   "area_cm2": 3.1591347429152075,
+   "z_um": [
+    5768.379206542969,
+    15375.730434082032
+   ],
+   "radius_mm": [
+    2.5073867222516553,
+    3.967241218927875,
+    7.058770936894177
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w031_spliced",
+   "area_cm2": 3.3031770021182836,
+   "z_um": [
+    5768.126351806641,
+    15377.518604003906
+   ],
+   "radius_mm": [
+    2.622853172406739,
+    4.130779497096716,
+    7.2919620320462615
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w032_spliced",
+   "area_cm2": 3.4207643523661333,
+   "z_um": [
+    5767.514455078125,
+    15379.005225585937
+   ],
+   "radius_mm": [
+    2.7470211809555334,
+    4.292219131156013,
+    7.521687895776486
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w033_spliced",
+   "area_cm2": 3.5392821164575228,
+   "z_um": [
+    5769.402945556641,
+    15379.122559570313
+   ],
+   "radius_mm": [
+    2.8751138880762763,
+    4.4511264011018,
+    7.729342655712441
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w034_spliced",
+   "area_cm2": 3.657251718109937,
+   "z_um": [
+    5768.056538085938,
+    15372.58236328125
+   ],
+   "radius_mm": [
+    3.0148922301259566,
+    4.62716155921227,
+    7.923791627951204
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w035_spliced",
+   "area_cm2": 3.774382907822681,
+   "z_um": [
+    5770.446631347656,
+    15378.759997558594
+   ],
+   "radius_mm": [
+    3.145208352430745,
+    4.796092607161205,
+    8.095046206197198
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w036_spliced",
+   "area_cm2": 3.8966171980944058,
+   "z_um": [
+    5773.42046118164,
+    15379.113172851563
+   ],
+   "radius_mm": [
+    3.2652044734411927,
+    4.96227285828268,
+    8.302234308589588
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w037_spliced",
+   "area_cm2": 4.01798258411486,
+   "z_um": [
+    5767.662882568359,
+    15378.40212890625
+   ],
+   "radius_mm": [
+    3.3792859337374788,
+    5.137117100836356,
+    8.51771920425766
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w038_spliced",
+   "area_cm2": 4.1460354529233365,
+   "z_um": [
+    5768.365126464844,
+    15378.756477539062
+   ],
+   "radius_mm": [
+    3.4888544671044,
+    5.306852853629996,
+    8.717594808848775
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w039_spliced",
+   "area_cm2": 4.277705756182498,
+   "z_um": [
+    5767.679895996093,
+    15378.57695654297
+   ],
+   "radius_mm": [
+    3.6030226428895555,
+    5.4870423331383025,
+    8.950534860354372
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w040_spliced",
+   "area_cm2": 4.414730242040137,
+   "z_um": [
+    5768.761715332032,
+    15377.987939941406
+   ],
+   "radius_mm": [
+    3.7284505118508657,
+    5.684168004812172,
+    9.184777060216714
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w041_spliced",
+   "area_cm2": 4.554605718584466,
+   "z_um": [
+    5770.541671875,
+    15532.228155761719
+   ],
+   "radius_mm": [
+    3.878258454428722,
+    5.8800466798164805,
+    9.400773463521565
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w042_spliced",
+   "area_cm2": 4.6492345488457065,
+   "z_um": [
+    5767.470454833984,
+    15476.27392529297
+   ],
+   "radius_mm": [
+    4.015734135667838,
+    6.0727995343099765,
+    9.590469514510593
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w043_spliced",
+   "area_cm2": 4.758971659329859,
+   "z_um": [
+    5767.542615234375,
+    15378.04191357422
+   ],
+   "radius_mm": [
+    4.147755361557065,
+    6.261981596527961,
+    9.746341017794894
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w044_spliced",
+   "area_cm2": 4.874069451377114,
+   "z_um": [
+    5768.287686035156,
+    15379.004052246093
+   ],
+   "radius_mm": [
+    4.274849881136254,
+    6.432665795151292,
+    9.921109318278804
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w045_spliced",
+   "area_cm2": 4.984642685442527,
+   "z_um": [
+    5767.468694824219,
+    15379.059199218751
+   ],
+   "radius_mm": [
+    4.393999792824139,
+    6.597868976103016,
+    10.102020944578985
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w046_spliced",
+   "area_cm2": 5.107419881337232,
+   "z_um": [
+    5767.7737631835935,
+    15378.416208984376
+   ],
+   "radius_mm": [
+    4.514811882718917,
+    6.74308652150792,
+    10.25899199713713
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w047_spliced",
+   "area_cm2": 5.23721515084165,
+   "z_um": [
+    5767.239306884766,
+    15378.948905273437
+   ],
+   "radius_mm": [
+    4.6281718929130555,
+    6.8832900359651905,
+    10.429060164072208
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w048_spliced",
+   "area_cm2": 5.369191331584095,
+   "z_um": [
+    5767.7303496093755,
+    15377.03166796875
+   ],
+   "radius_mm": [
+    4.751330750094559,
+    7.021965145556932,
+    10.616044198423992
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w049_spliced",
+   "area_cm2": 5.490606558171843,
+   "z_um": [
+    5767.272747070312,
+    15377.750925292969
+   ],
+   "radius_mm": [
+    4.870122506918998,
+    7.173829779789279,
+    10.819222096140594
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w050_spliced",
+   "area_cm2": 5.615049651722302,
+   "z_um": [
+    5768.513553955078,
+    15377.44468359375
+   ],
+   "radius_mm": [
+    4.995213489186496,
+    7.362872765208619,
+    11.028742112259822
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w051_spliced",
+   "area_cm2": 5.784805601242784,
+   "z_um": [
+    5767.825976806641,
+    15377.624204589843
+   ],
+   "radius_mm": [
+    5.1235289308522045,
+    7.547638677492988,
+    11.218090539162626
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w052_spliced",
+   "area_cm2": 5.9071115563482515,
+   "z_um": [
+    5767.502721679688,
+    15376.172783203125
+   ],
+   "radius_mm": [
+    5.26558767331929,
+    7.71635434183572,
+    11.416413210038524
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w053_spliced",
+   "area_cm2": 6.051882266746559,
+   "z_um": [
+    5767.883470458984,
+    15378.484262695312
+   ],
+   "radius_mm": [
+    5.391679341632339,
+    7.904628808515568,
+    11.59467913606742
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z600\u20131600",
+   "kind": "spiral windings (spliced)",
+   "surface": "w054_spliced",
+   "area_cm2": 6.177237021131797,
+   "z_um": [
+    5767.485708251953,
+    15376.774706542968
+   ],
+   "radius_mm": [
+    5.499445017614182,
+    8.103492946468798,
+    11.77283259692255
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z1300\u20131500",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "surface": "w084",
+   "area_cm2": 1.6437942011229132,
+   "z_um": [
+    12495.624640136719,
+    14417.99061328125
+   ],
+   "radius_mm": [
+    10.127938448929855,
+    12.460588828286005,
+    17.319396526393167
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z1300\u20131500",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "surface": "w085",
+   "area_cm2": 1.6713081322181182,
+   "z_um": [
+    12495.780694335937,
+    14417.963626464843
+   ],
+   "radius_mm": [
+    10.261472449940845,
+    12.656036772299714,
+    17.457475033291193
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z1300\u20131500",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "surface": "w086",
+   "area_cm2": 1.7002227012799238,
+   "z_um": [
+    12495.720854003906,
+    14417.838079101562
+   ],
+   "radius_mm": [
+    10.399316017003288,
+    12.874368181867277,
+    17.603172852767354
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z1300\u20131500",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "surface": "w087",
+   "area_cm2": 1.7206474042728308,
+   "z_um": [
+    12495.710293945313,
+    14417.95306640625
+   ],
+   "radius_mm": [
+    10.538217548421096,
+    13.0563139080844,
+    17.738773345888756
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z1300\u20131500",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "surface": "w088",
+   "area_cm2": 1.74400026844386,
+   "z_um": [
+    12495.747840820313,
+    14417.962453125001
+   ],
+   "radius_mm": [
+    10.667510528777331,
+    13.25273957070749,
+    17.89609618419851
+   ]
+  },
+  {
+   "scroll": "PHerc0846A",
+   "scan": "2.403 \u00b5m L2",
+   "source": "PHerc0846A spiral band z1300\u20131500",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "surface": "w089",
+   "area_cm2": 1.7814843167630128,
+   "z_um": [
+    12496.02240234375,
+    14417.95306640625
+   ],
+   "radius_mm": [
+    10.805423901043737,
+    13.462666877213902,
+    18.041178975030526
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w010",
+   "area_cm2": 1.0683972296843798,
+   "z_um": [
+    121708.44106835937,
+    131049.349140625
+   ],
+   "radius_mm": [
+    0.27060216765975154,
+    0.7678207870205467,
+    2.7989541231775403
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w011",
+   "area_cm2": 1.2143217105318878,
+   "z_um": [
+    121715.95626757812,
+    131056.0049375
+   ],
+   "radius_mm": [
+    0.29954711586767885,
+    0.8267823406350312,
+    3.055305551046266
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w012",
+   "area_cm2": 1.384614653977579,
+   "z_um": [
+    121711.18384179688,
+    131061.09735351562
+   ],
+   "radius_mm": [
+    0.3315941275594226,
+    0.9026321119603967,
+    3.446934854586492
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w013",
+   "area_cm2": 1.57039477170448,
+   "z_um": [
+    121706.49369921876,
+    131067.87200390625
+   ],
+   "radius_mm": [
+    0.3588325723945309,
+    0.952254511204977,
+    3.8395456357554236
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w014",
+   "area_cm2": 1.711983054819707,
+   "z_um": [
+    121711.24783984375,
+    131067.54287109376
+   ],
+   "radius_mm": [
+    0.38898307160538703,
+    1.0248994787673207,
+    4.272951972305279
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w015",
+   "area_cm2": 1.8374720065058068,
+   "z_um": [
+    121706.6216953125,
+    131067.95428710937
+   ],
+   "radius_mm": [
+    0.4219745335140761,
+    1.0872203986211373,
+    4.531786204396393
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w016",
+   "area_cm2": 1.965898220514187,
+   "z_um": [
+    121706.75883398438,
+    131067.10402734375
+   ],
+   "radius_mm": [
+    0.45738364342552645,
+    1.1439786958323221,
+    4.82988242724732
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w017",
+   "area_cm2": 2.093911126262576,
+   "z_um": [
+    121706.658265625,
+    131062.39559960937
+   ],
+   "radius_mm": [
+    0.4962983430031501,
+    1.211360812081838,
+    5.130691848533594
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w018",
+   "area_cm2": 2.2187878594731427,
+   "z_um": [
+    121707.81023046875,
+    131066.244625
+   ],
+   "radius_mm": [
+    0.538537248310341,
+    1.2920027881722767,
+    5.42167193470577
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w019",
+   "area_cm2": 2.3572277212181443,
+   "z_um": [
+    121706.59426757813,
+    131067.47887304687
+   ],
+   "radius_mm": [
+    0.5866727482163762,
+    1.3526194358319859,
+    5.725081817920911
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w020",
+   "area_cm2": 2.5144596848884064,
+   "z_um": [
+    121706.8776875,
+    131066.464046875
+   ],
+   "radius_mm": [
+    0.6313948266084161,
+    1.4302169643577387,
+    6.052607768776376
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w021",
+   "area_cm2": 2.6821649250494635,
+   "z_um": [
+    121706.38398828125,
+    131067.414875
+   ],
+   "radius_mm": [
+    0.677325323217735,
+    1.4959341288237598,
+    6.333547401697168
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w022",
+   "area_cm2": 2.850053895692454,
+   "z_um": [
+    121706.79540429688,
+    131065.85149414063
+   ],
+   "radius_mm": [
+    0.725051268191634,
+    1.5768470316377168,
+    6.727988389673241
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w023",
+   "area_cm2": 3.044115313361696,
+   "z_um": [
+    121708.14850585938,
+    131066.0617734375
+   ],
+   "radius_mm": [
+    0.7771890633301386,
+    1.667084924674347,
+    7.113562310401607
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w024",
+   "area_cm2": 3.2066581696490575,
+   "z_um": [
+    121708.65134765625,
+    131066.33605078125
+   ],
+   "radius_mm": [
+    0.8278364264802553,
+    1.7470135022603728,
+    7.511857358331878
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w025",
+   "area_cm2": 3.3750856925990274,
+   "z_um": [
+    121709.85816796875,
+    131066.84803515625
+   ],
+   "radius_mm": [
+    0.876261094450052,
+    1.8277982782616091,
+    7.967929798820601
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w026",
+   "area_cm2": 3.57669198773617,
+   "z_um": [
+    121709.51075,
+    131066.97603125
+   ],
+   "radius_mm": [
+    0.9185300104583666,
+    1.9009575133234278,
+    8.333310784841226
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w027",
+   "area_cm2": 3.7891595192880216,
+   "z_um": [
+    121714.62145117187,
+    131067.09488476563
+   ],
+   "radius_mm": [
+    0.9635688381002954,
+    1.9784712013883772,
+    8.736006556398753
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w028",
+   "area_cm2": 3.9463146979621277,
+   "z_um": [
+    121706.06399804687,
+    131063.13614843751
+   ],
+   "radius_mm": [
+    1.0078948361326552,
+    2.0478664849073547,
+    9.112053840793257
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w029",
+   "area_cm2": 4.06253525605006,
+   "z_um": [
+    121706.24684960938,
+    131061.28934765625
+   ],
+   "radius_mm": [
+    1.0513440307365058,
+    2.122350995750482,
+    9.498404854762512
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w030",
+   "area_cm2": 4.177509075341449,
+   "z_um": [
+    121709.20904492188,
+    131067.31430664062
+   ],
+   "radius_mm": [
+    1.0974158727002437,
+    2.203996018294838,
+    9.844585960300254
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w031",
+   "area_cm2": 4.358115714272638,
+   "z_um": [
+    121707.91994140625,
+    131066.4274765625
+   ],
+   "radius_mm": [
+    1.1478371017519389,
+    2.2942592216089355,
+    10.150741508655562
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w032",
+   "area_cm2": 4.595447369511789,
+   "z_um": [
+    121709.1816171875,
+    131067.90857421875
+   ],
+   "radius_mm": [
+    1.1977059780016515,
+    2.3779485087158356,
+    10.161704062461753
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w033",
+   "area_cm2": 4.934589894505335,
+   "z_um": [
+    121707.5725234375,
+    131067.00345898437
+   ],
+   "radius_mm": [
+    1.2523457034936716,
+    2.5002569403358534,
+    10.525247396972857
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w034",
+   "area_cm2": 5.191788793626208,
+   "z_um": [
+    121708.16679101562,
+    131065.97949023437
+   ],
+   "radius_mm": [
+    1.3049238188310304,
+    2.5855427341170123,
+    11.0288497662124
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w035",
+   "area_cm2": 5.341217157081775,
+   "z_um": [
+    121706.59426757813,
+    131067.5245859375
+   ],
+   "radius_mm": [
+    1.3593224822045518,
+    2.6862426513550592,
+    11.515296359718684
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w036",
+   "area_cm2": 5.461591848489718,
+   "z_um": [
+    121707.0605390625,
+    131064.65381640625
+   ],
+   "radius_mm": [
+    1.418124715595524,
+    2.795637041047938,
+    11.828738796651239
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w037",
+   "area_cm2": 5.580122714799612,
+   "z_um": [
+    121707.63652148438,
+    131066.3543359375
+   ],
+   "radius_mm": [
+    1.4766333159821514,
+    2.9097692719821158,
+    12.13511348246971
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w038",
+   "area_cm2": 5.688698807012764,
+   "z_um": [
+    121706.67655078125,
+    131066.5737578125
+   ],
+   "radius_mm": [
+    1.549188134258742,
+    3.0168162162577583,
+    12.529905203601633
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w039",
+   "area_cm2": 5.803686203006853,
+   "z_um": [
+    121706.09142578125,
+    131067.00345898437
+   ],
+   "radius_mm": [
+    1.6105518485279884,
+    3.109844550661193,
+    12.93843406593771
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w040",
+   "area_cm2": 5.930989034750408,
+   "z_um": [
+    121706.05485546876,
+    131066.5006171875
+   ],
+   "radius_mm": [
+    1.6865466700654226,
+    3.220013059493757,
+    13.046189613374246
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w041",
+   "area_cm2": 6.056782950899028,
+   "z_um": [
+    121706.0365703125,
+    131067.85371875
+   ],
+   "radius_mm": [
+    1.7559629902701186,
+    3.3341289804233654,
+    13.32068180144847
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w042",
+   "area_cm2": 6.236361691949182,
+   "z_um": [
+    121707.4262421875,
+    131065.08351757812
+   ],
+   "radius_mm": [
+    1.8339448212866616,
+    3.445061393178344,
+    13.524436249448259
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w043",
+   "area_cm2": 6.357885854066851,
+   "z_um": [
+    121707.2068203125,
+    131066.72918164062
+   ],
+   "radius_mm": [
+    1.9040817327065418,
+    3.5576238921994427,
+    13.756816930446254
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w044",
+   "area_cm2": 6.465886458640974,
+   "z_um": [
+    121706.08228320313,
+    131066.80232226562
+   ],
+   "radius_mm": [
+    1.9722170285114646,
+    3.675710530617556,
+    13.900974045833806
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w045",
+   "area_cm2": 6.564394271718366,
+   "z_um": [
+    121706.26513476562,
+    131067.780578125
+   ],
+   "radius_mm": [
+    2.0402663070530296,
+    3.8034513598795243,
+    14.191952570295838
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w046",
+   "area_cm2": 6.667442800335913,
+   "z_um": [
+    121706.06399804687,
+    131065.147515625
+   ],
+   "radius_mm": [
+    2.109361719825407,
+    3.9127569644160585,
+    14.487406604016094
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w047",
+   "area_cm2": 6.774970777168244,
+   "z_um": [
+    121706.67655078125,
+    131067.87200390625
+   ],
+   "radius_mm": [
+    2.176739396765459,
+    4.0276157245091655,
+    14.654794378005358
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w048",
+   "area_cm2": 6.8977591916786585,
+   "z_um": [
+    121706.4754140625,
+    131067.8171484375
+   ],
+   "radius_mm": [
+    2.2431806394799167,
+    4.145315990902178,
+    14.829197922618576
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w049",
+   "area_cm2": 7.034576208872445,
+   "z_um": [
+    121706.82283203125,
+    131066.54633007813
+   ],
+   "radius_mm": [
+    2.304639197329537,
+    4.2718635981301745,
+    15.133851249523005
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w050",
+   "area_cm2": 7.225340516132582,
+   "z_um": [
+    121706.02742773437,
+    131066.73832421875
+   ],
+   "radius_mm": [
+    2.372150822779017,
+    4.397154321501161,
+    15.504358811432969
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w051",
+   "area_cm2": 7.505823222041807,
+   "z_um": [
+    121706.61255273438,
+    131067.40573242187
+   ],
+   "radius_mm": [
+    2.440808718968263,
+    4.5091202519274525,
+    15.313134060237124
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w052",
+   "area_cm2": 7.74785445100883,
+   "z_um": [
+    121706.02742773437,
+    131066.69261132812
+   ],
+   "radius_mm": [
+    2.5110432175709554,
+    4.678261251821541,
+    15.735303647381153
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w053",
+   "area_cm2": 7.957150994040793,
+   "z_um": [
+    121706.42055859375,
+    131065.60464453125
+   ],
+   "radius_mm": [
+    2.586271679559645,
+    4.807569854020995,
+    15.974574379838257
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w054",
+   "area_cm2": 8.118252120835,
+   "z_um": [
+    121706.43884375,
+    131067.13145507812
+   ],
+   "radius_mm": [
+    2.678561658721188,
+    4.948975427992811,
+    15.934144215149624
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w055",
+   "area_cm2": 8.259514970062495,
+   "z_um": [
+    121706.13713867188,
+    131067.780578125
+   ],
+   "radius_mm": [
+    2.771047517556578,
+    5.067458409027366,
+    16.462561407656384
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w056",
+   "area_cm2": 8.442308671137026,
+   "z_um": [
+    121706.38398828125,
+    131067.93600195313
+   ],
+   "radius_mm": [
+    2.8602298645883413,
+    5.209919264693548,
+    16.73426887980333
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w057",
+   "area_cm2": 8.642559663948951,
+   "z_um": [
+    121706.90511523437,
+    131067.95428710937
+   ],
+   "radius_mm": [
+    2.96835429660954,
+    5.343503367457489,
+    16.770570426465838
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w058",
+   "area_cm2": 8.834121901228848,
+   "z_um": [
+    121706.33827539063,
+    131067.94514453124
+   ],
+   "radius_mm": [
+    3.059816385892563,
+    5.482206175384798,
+    17.32694986759723
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w059",
+   "area_cm2": 9.007706560714468,
+   "z_um": [
+    121706.11885351563,
+    131067.87200390625
+   ],
+   "radius_mm": [
+    3.158000193326406,
+    5.628365317118707,
+    17.60332030428582
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w060",
+   "area_cm2": 9.19821514806586,
+   "z_um": [
+    121706.35656054688,
+    131067.926859375
+   ],
+   "radius_mm": [
+    3.240732964211197,
+    5.761173344366768,
+    17.870969262602788
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w061",
+   "area_cm2": 9.466188582678402,
+   "z_um": [
+    121707.27081835938,
+    131067.50630078126
+   ],
+   "radius_mm": [
+    3.3246938294149504,
+    5.850916541955095,
+    17.8680361250615
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w062",
+   "area_cm2": 9.655347166737698,
+   "z_um": [
+    121706.57598242187,
+    131067.84457617188
+   ],
+   "radius_mm": [
+    3.402695698087505,
+    6.030893361944207,
+    18.401097336458285
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w063",
+   "area_cm2": 9.823215724031204,
+   "z_um": [
+    121706.0365703125,
+    131067.61601171875
+   ],
+   "radius_mm": [
+    3.4697313787251187,
+    6.1518681506342725,
+    18.691358326277935
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w064",
+   "area_cm2": 10.031908687525707,
+   "z_um": [
+    121706.08228320313,
+    131066.5006171875
+   ],
+   "radius_mm": [
+    3.556640840400288,
+    6.273491440883306,
+    18.72919033134842
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w065",
+   "area_cm2": 10.144815378053684,
+   "z_um": [
+    121706.14628125,
+    131066.50975976563
+   ],
+   "radius_mm": [
+    3.638345191559059,
+    6.385067657349807,
+    19.29229161873939
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w066",
+   "area_cm2": 10.212541190042531,
+   "z_um": [
+    121706.38398828125,
+    131067.6708671875
+   ],
+   "radius_mm": [
+    3.7068461039693053,
+    6.4980117311099335,
+    19.493427701243125
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w067",
+   "area_cm2": 10.351611038931702,
+   "z_um": [
+    121706.04571289063,
+    131067.97257226563
+   ],
+   "radius_mm": [
+    3.7980906368045075,
+    6.634589234599176,
+    19.82239799890109
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w068",
+   "area_cm2": 10.535818978668157,
+   "z_um": [
+    121706.24684960938,
+    131067.9634296875
+   ],
+   "radius_mm": [
+    3.883008190627535,
+    6.766101325771754,
+    20.211581926581218
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w069",
+   "area_cm2": 10.746668165630032,
+   "z_um": [
+    121706.05485546876,
+    131066.14405664062
+   ],
+   "radius_mm": [
+    3.9775596057472566,
+    6.924302921121855,
+    20.519552533977365
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w070",
+   "area_cm2": 10.982159795461728,
+   "z_um": [
+    121706.26513476562,
+    131067.53372851563
+   ],
+   "radius_mm": [
+    4.073704846701138,
+    7.091760135402052,
+    20.660469826783473
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w071",
+   "area_cm2": 11.148802906890772,
+   "z_um": [
+    121706.57598242187,
+    131066.7931796875
+   ],
+   "radius_mm": [
+    4.176704918344401,
+    7.239366447137306,
+    21.007652361816557
+   ]
+  },
+  {
+   "scroll": "PHerc0826",
+   "scan": "9.362 \u00b5m",
+   "source": "PHerc0826 spiral band z13000\u201314000",
+   "kind": "spiral windings",
+   "surface": "w072",
+   "area_cm2": 11.30145924017307,
+   "z_um": [
+    121706.42970117187,
+    131067.88114648437
+   ],
+   "radius_mm": [
+    4.288581905702903,
+    7.407255424157101,
+    21.34783209783092
+   ]
+  }
+ ]
+}

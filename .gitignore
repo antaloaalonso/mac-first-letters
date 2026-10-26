@@ -24,3 +24,4 @@ __pycache__/
 /checkpoints
 /data
 work/
+atlas/.mesh_cache/

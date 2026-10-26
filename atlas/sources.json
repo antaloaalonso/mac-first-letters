@@ -1,0 +1,96 @@
+{
+ "sources": [
+  {
+   "id": "PHerc0800 published auto-grown",
+   "scroll": "PHerc0800",
+   "scan": "8.64 µm",
+   "kind": "published segments",
+   "voxel_um": 8.64,
+   "pred_glob": "pred/PHerc0800/*.tif",
+   "mesh": "",
+   "mesh_map": {
+    "20251028213516": "s3:PHerc0800/segments/20251028213516-auto_grown_20251028213516907/mesh/20251028213516-on-20250521135224-8.64um.tifxyz",
+    "20251028220042": "s3:PHerc0800/segments/20251028220042-auto_grown_20251028220042762/mesh/20251028220042-on-20250521135224-8.64um.tifxyz",
+    "20251028220955": "s3:PHerc0800/segments/20251028220955-auto_grown_20251028220955262/mesh/20251028220955-on-20250521135224-8.64um.tifxyz",
+    "20251028222030": "s3:PHerc0800/segments/20251028222030-auto_grown_20251028222030940/mesh/20251028222030-on-20250521135224-8.64um.tifxyz",
+    "20251028225813": "s3:PHerc0800/segments/20251028225813-auto_grown_20251028225813045/mesh/20251028225813-on-20250521135224-8.64um.tifxyz",
+    "20251029010146": "s3:PHerc0800/segments/20251029010146-auto_grown_20251029010146642/mesh/20251029010146-on-20250521135224-8.64um.tifxyz"
+   },
+   "result": "no ink (ink_9um, single model)"
+  },
+  {
+   "id": "PHerc1203 published raw",
+   "scroll": "PHerc1203",
+   "scan": "9.362 µm",
+   "kind": "published segments",
+   "voxel_um": 9.362,
+   "pred_glob": "pred/PHerc1203_raw/*.tif",
+   "mesh": "s3:PHerc1203/segments/raw/{name}",
+   "result": "no ink (single model)"
+  },
+  {
+   "id": "PHerc1203 random GrowPatch",
+   "scroll": "PHerc1203",
+   "scan": "2.403 µm L2",
+   "kind": "GrowPatch, random seeds",
+   "voxel_um": 9.612,
+   "pred_glob": "pred/PHerc1203_2um/*.tif",
+   "mesh": "segs/PHerc1203_2um/{name}",
+   "result": "no letters; starburst patches"
+  },
+  {
+   "id": "PHerc1203 seeded GrowPatch",
+   "scroll": "PHerc1203",
+   "scan": "2.403 µm L2",
+   "kind": "GrowPatch, seedmap seeds",
+   "voxel_um": 9.612,
+   "pred_glob": "pred/PHerc1203_cg/*.tif",
+   "mesh": "segs/PHerc1203_cg/{name}",
+   "result": "no line-structured text (ensemble)"
+  },
+  {
+   "id": "PHerc0846A seeded GrowPatch",
+   "scroll": "PHerc0846A",
+   "scan": "2.403 µm L2",
+   "kind": "GrowPatch, seedmap seeds",
+   "voxel_um": 9.612,
+   "umbilicus": "spiral/PHerc0846A/umbilicus.json",
+   "pred_glob": "pred/PHerc0846A_cg/*.tif",
+   "mesh": "segs/PHerc0846A_cg/{name}",
+   "result": "no text; candidates traced to crack edges / folds"
+  },
+  {
+   "id": "PHerc0846A spiral band z600–1600",
+   "scroll": "PHerc0846A",
+   "scan": "2.403 µm L2",
+   "kind": "spiral windings (spliced)",
+   "voxel_um": 9.612,
+   "umbilicus": "spiral/PHerc0846A/umbilicus.json",
+   "pred_glob": "pred/test_all/*.tif",
+   "mesh": "segs/test_all/{name}",
+   "result": "no text; void/crack rims masked"
+  },
+  {
+   "id": "PHerc0846A spiral band z1300–1500",
+   "scroll": "PHerc0846A",
+   "scan": "2.403 µm L2",
+   "kind": "spiral windings (first_letters_mac.sh)",
+   "voxel_um": 9.612,
+   "umbilicus": "spiral/PHerc0846A/umbilicus.json",
+   "pred_glob": "upstream/mac-first-letters/pred/PHerc0846A_1300_1500/*.tif",
+   "mesh": "upstream/mac-first-letters/work/PHerc0846A_1300_1500/windings/{name}",
+   "result": "no text (600-step validation fit)"
+  },
+  {
+   "id": "PHerc0826 spiral band z13000–14000",
+   "scroll": "PHerc0826",
+   "scan": "9.362 µm",
+   "kind": "spiral windings",
+   "voxel_um": 9.362,
+   "umbilicus": "pherc0826/dataset/umbilicus.json",
+   "pred_glob": "pred/b13000/*.tif",
+   "mesh": "pherc0826/meshsel/b13000/{name}",
+   "result": "no candidates; sub-letter speckle only"
+  }
+ ]
+}
