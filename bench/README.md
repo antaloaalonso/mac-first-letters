@@ -31,4 +31,4 @@ python bench/res9.py control bench/data <case>   # resampling-only control
 
 ## Fine-tuning for 9.36 µm input
 
-[FT9_RESULTS.md](FT9_RESULTS.md): a 70-minute MPS fine-tune of ink_9um on the native 9.362 µm labels. It raises held-out AUROC in the band-sweep setting from 0.800 to 0.853 (seed42), better than the base ensemble at half the cost. The checkpoint is too large for git (138 MB); it is attached to the GitHub release.
+[FT9_RESULTS.md](FT9_RESULTS.md): a 70-minute MPS fine-tune of ink_9um on the native 9.362 µm labels. It raises held-out AUROC in the band-sweep setting from 0.800 to 0.853 (seed42), 0.863 with `--tta-mirror`, better than the base ensemble at half the cost. The checkpoint is too large for git (273 MB); it is attached to the GitHub release.

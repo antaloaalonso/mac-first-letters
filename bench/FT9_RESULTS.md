@@ -53,7 +53,7 @@ The final iteration is reported; no checkpoint was selected on held-out data.
 
 ## Recommendation for 9 µm band sweeps
 
-1. **Screen with the fine-tuned seed42** (`ft9/ckpt/ft9_seed42.pth`, 138 MB) at 50% overlap, in place of base seed42. Inference flags are unchanged: `--overlap 0.5 --blend-mode hann`, single checkpoint.
+1. **Screen with the fine-tuned seed42** (`ft9/ckpt/ft9_seed42.pth`, 273 MB) at 50% overlap, in place of base seed42. Inference flags are unchanged: `--overlap 0.5 --blend-mode hann`, single checkpoint.
 2. **Confirm candidates with the base seed42+43 ensemble**, the validated recipe, rather than the fine-tuned ensemble, until more cross-scroll held-out data exists.
 3. **Next step:** validate on a third scroll, either by mapping more aligned labels from other scrolls onto their 9 µm scans, or with teacher labels from 2.4 µm predictions.
 
