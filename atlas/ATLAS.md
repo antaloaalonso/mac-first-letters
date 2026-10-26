@@ -2,6 +2,8 @@
 
 Every surface below was rendered and run through `ink_9um` (seed42+43 ensemble unless noted) in both depth directions. None showed line-structured text. Areas are true mesh surface areas. Heights are scan z in µm; radii are distances from the umbilicus (where one was available), 5th–95th percentile.
 
+**How strong these negatives are:** on ~9 µm scans (the 8.64 and 9.362 µm rows) `ink_9um` loses sensitivity, and the sweep's tile ranking puts real held-out 9 µm text below artifacts ([`bench/SCORE_NOTE.md`](../bench/SCORE_NOTE.md)). Read those rows as "screened", not "shown empty". The 2.4 µm rows are stronger negatives (held-out AUROC 0.90 vs. 0.85 at 9.36 µm, `bench/RESULTS9.md`).
+
 | scroll | scan | batch | kind | surfaces | area cm² | z range (mm) | radius (mm) | result |
 |---|---|---|---|---|---|---|---|---|
 | PHerc0800 | 8.64 µm | PHerc0800 published auto-grown | published segments | 6 | 10 | 93.8–114.4 | — | no ink (ink_9um, single model) |
