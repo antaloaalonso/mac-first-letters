@@ -1,0 +1,774 @@
+[
+ {
+  "scroll": "PHerc0125",
+  "spiral": {
+   "20250821151825": {
+    "tracks": [
+     [
+      "PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm",
+      "8.9 GiB"
+     ],
+     [
+      "PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.6 GiB"
+     ],
+     [
+      "PHerc0125_20250821151825_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151825-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "umbilicus": [
+    "20250821151825-umbilicus-20260808111524.json"
+   ],
+   "predictions/lasagna": [
+    "20250821151825-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151825-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151825-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0175A",
+  "spiral": {
+   "20250521115057": {
+    "tracks": [
+     [
+      "PHerc0175A_20250521115057_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0175A_20250521115057_surface_m7_L0_th0.2.dbm",
+      "8.2 GiB"
+     ],
+     [
+      "PHerc0175A_20250521115057_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.4 GiB"
+     ],
+     [
+      "PHerc0175A_20250521115057_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521115057-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250521115057-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521115057-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0175B",
+  "spiral": {
+   "20250521125822": {
+    "tracks": [
+     [
+      "PHerc0175B_20250521125822_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0175B_20250521125822_surface_m7_L0_th0.2.dbm",
+      "10.3 GiB"
+     ],
+     [
+      "PHerc0175B_20250521125822_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.4 GiB"
+     ],
+     [
+      "PHerc0175B_20250521125822_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521125822-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250521125822-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521125822-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0191",
+  "spiral": {
+   "20250821151635": {
+    "tracks": [
+     [
+      "PHerc0191_20250821151635_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0191_20250821151635_surface_m7_L0_th0.2.dbm",
+      "9.2 GiB"
+     ],
+     [
+      "PHerc0191_20250821151635_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.2 GiB"
+     ],
+     [
+      "PHerc0191_20250821151635_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151635-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250821151635-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151635-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151635-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0211",
+  "spiral": {
+   "20250821151803": {
+    "tracks": [
+     [
+      "PHerc0211_20250821151803_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0211_20250821151803_surface_m7_L0_th0.2.dbm",
+      "7.0 GiB"
+     ],
+     [
+      "PHerc0211_20250821151803_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.9 GiB"
+     ],
+     [
+      "PHerc0211_20250821151803_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151803-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "umbilicus": [
+    "20250821151803-umbilicus-20260808112626.json"
+   ],
+   "predictions/lasagna": [
+    "20250821151803-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151803-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151803-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0257",
+  "spiral": {
+   "20250821151750": {
+    "tracks": [
+     [
+      "PHerc0257_20250821151750_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0257_20250821151750_surface_m7_L0_th0.2.dbm",
+      "6.0 GiB"
+     ],
+     [
+      "PHerc0257_20250821151750_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.4 GiB"
+     ],
+     [
+      "PHerc0257_20250821151750_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151750-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250821151750-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151750-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151750-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0268",
+  "spiral": {
+   "20251110183117": {
+    "tracks": [
+     [
+      "PHerc0268_20251110183117_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0268_20251110183117_surface_m7_L0_th0.2.dbm",
+      "12.3 GiB"
+     ],
+     [
+      "PHerc0268_20251110183117_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.4 GiB"
+     ],
+     [
+      "PHerc0268_20251110183117_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20251110183117-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20251110183117-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20251110183117-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20251110183117-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0306B",
+  "spiral": {
+   "20250521133212": {
+    "tracks": [
+     [
+      "PHerc0306B_20250521133212_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0306B_20250521133212_surface_m7_L0_th0.2.dbm",
+      "8.4 GiB"
+     ],
+     [
+      "PHerc0306B_20250521133212_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.3 GiB"
+     ],
+     [
+      "PHerc0306B_20250521133212_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521133212-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250521133212-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521133212-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0358",
+  "spiral": {
+   "20250821151737": {
+    "tracks": [
+     [
+      "PHerc0358_20250821151737_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0358_20250821151737_surface_m7_L0_th0.2.dbm",
+      "5.6 GiB"
+     ],
+     [
+      "PHerc0358_20250821151737_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.4 GiB"
+     ],
+     [
+      "PHerc0358_20250821151737_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151737-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250821151737-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151737-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151737-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0483A",
+  "spiral": {
+   "20250521140913": {
+    "tracks": [
+     [
+      "PHerc0483A_20250521140913_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0483A_20250521140913_surface_m7_L0_th0.2.dbm",
+      "6.9 GiB"
+     ],
+     [
+      "PHerc0483A_20250521140913_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.8 GiB"
+     ],
+     [
+      "PHerc0483A_20250521140913_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521140913-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250521140913-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521140913-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0483B",
+  "spiral": {
+   "20251124083638": {
+    "tracks": [
+     [
+      "PHerc0483B_20251124083638_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0483B_20251124083638_surface_m7_L0_th0.2.dbm",
+      "5.6 GiB"
+     ],
+     [
+      "PHerc0483B_20251124083638_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.4 GiB"
+     ],
+     [
+      "PHerc0483B_20251124083638_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20251124083638-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20251124083638-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20251124083638-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0490A",
+  "spiral": {
+   "20250521151210": {
+    "tracks": [
+     [
+      "PHerc0490A_20250521151210_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0490A_20250521151210_surface_m7_L0_th0.2.dbm",
+      "6.1 GiB"
+     ],
+     [
+      "PHerc0490A_20250521151210_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.4 GiB"
+     ],
+     [
+      "PHerc0490A_20250521151210_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521151210-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250521151210-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521151210-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0490B",
+  "spiral": {
+   "20250521151215": {
+    "tracks": [
+     [
+      "PHerc0490B_20250521151215_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0490B_20250521151215_surface_m7_L0_th0.2.dbm",
+      "3.6 GiB"
+     ],
+     [
+      "PHerc0490B_20250521151215_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "857.7 MiB"
+     ],
+     [
+      "PHerc0490B_20250521151215_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521151215-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250521151215-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521151215-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0800",
+  "spiral": {
+   "20250521135224": {
+    "tracks": [
+     [
+      "PHerc0800_20250521135224_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0800_20250521135224_surface_m7_L0_th0.2.dbm",
+      "12.2 GiB"
+     ],
+     [
+      "PHerc0800_20250521135224_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "3.1 GiB"
+     ],
+     [
+      "PHerc0800_20250521135224_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250521135224-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250521135224-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250521135224-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521135224-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0813",
+  "spiral": {
+   "20250821151723": {
+    "tracks": [
+     [
+      "PHerc0813_20250821151723_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0813_20250821151723_surface_m7_L0_th0.2.dbm",
+      "7.6 GiB"
+     ],
+     [
+      "PHerc0813_20250821151723_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "2.0 GiB"
+     ],
+     [
+      "PHerc0813_20250821151723_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151723-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250821151723-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151723-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151723-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0826",
+  "spiral": {
+   "20250821151701": {
+    "tracks": [
+     [
+      "PHerc0826_20250821151701_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0826_20250821151701_surface_m7_L0_th0.2.dbm",
+      "5.0 GiB"
+     ],
+     [
+      "PHerc0826_20250821151701_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.4 GiB"
+     ],
+     [
+      "PHerc0826_20250821151701_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250821151701-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "umbilicus": [
+    "20250821151701-umbilicus-20260808113303.json"
+   ],
+   "predictions/lasagna": [
+    "20250821151701-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151701-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151701-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0846A",
+  "spiral": {
+   "20250728152254": {
+    "tracks": [
+     [
+      "PHerc0846A_20250728152254_surface_m7_L0_th0.2.dbm.vctracks/",
+      "-"
+     ],
+     [
+      "PHerc0846A_20250728152254_surface_m7_L0_th0.2.dbm",
+      "4.1 GiB"
+     ],
+     [
+      "PHerc0846A_20250728152254_surface_m7_L0_th0.2.dbm.crossings.npz",
+      "1.0 GiB"
+     ],
+     [
+      "PHerc0846A_20250728152254_surface_m7_L0_th0.2.extract.json",
+      "1.1 KiB"
+     ]
+    ]
+   }
+  },
+  "volumes": [
+   "20250728152254-9.362um-1.2m-113keV-masked.zarr",
+   "20260319102732-2.403um-0.2m-77keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250728152254-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250728152254-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+    "20260319102732-surface-20260413222639-surface-m7-L2-th0.2.normal-grids",
+    "20260319102732-surface-20260413222639-surface-m7-L2-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc0846B",
+  "spiral": {},
+  "volumes": [
+   "20250804142305-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "surfaces"
+   ],
+   "predictions/surfaces": [
+    "20250804142305-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250804142305-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc1203",
+  "spiral": {},
+  "volumes": [
+   "20250820131727-9.362um-1.2m-113keV-masked.zarr",
+   "20260319130212-2.403um-0.2m-77keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250820131727-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250820131727-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250820131727-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+    "20260319130212-surface-20260413222639-surface-m7-L2-th0.2.normal-grids",
+    "20260319130212-surface-20260413222639-surface-m7-L2-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc1218",
+  "spiral": {},
+  "volumes": [
+   "20250521120456-8.640um-1.2m-116keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250521120456-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250521120456-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250521120456-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc1545",
+  "spiral": {},
+  "volumes": [
+   "20250821151648-9.362um-1.2m-113keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna",
+    "surfaces"
+   ],
+   "predictions/lasagna": [
+    "20250821151648-lasagna-20260419180421"
+   ],
+   "predictions/surfaces": [
+    "20250821151648-surface-20260413222639-surface-m7-L0-th0.2.normal-grids",
+    "20250821151648-surface-20260413222639-surface-m7-L0-th0.2.zarr"
+   ]
+  }
+ },
+ {
+  "scroll": "PHerc1667",
+  "spiral": {},
+  "volumes": [
+   "20251217075048-2.399um-0.2m-78keV-masked.zarr",
+   "20260323082859-1.129um-0.2m-59keV-masked.zarr"
+  ],
+  "representations": {
+   "predictions": [
+    "lasagna"
+   ],
+   "predictions/lasagna": [
+    "20251217075048-lasagna-20260419180421-L2"
+   ]
+  }
+ }
+]

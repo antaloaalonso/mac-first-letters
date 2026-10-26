@@ -1,7 +1,7 @@
-villa/
-tools/
-checkpoints/
-data/
+/villa/
+/tools/
+/checkpoints/
+/data/
 cache/
 renders/
 triage/*.zarr
