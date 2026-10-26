@@ -6,6 +6,12 @@ Hunt for First Letters on an Apple-silicon laptop. No NVIDIA GPU, no bulk volume
 
 The [Vesuvius Challenge](https://scrollprize.org) tutorials are written around CUDA GPUs, and several steps (ink models, spiral fitting, the `vesuvius[models]` install) did not run on a Mac. This repo gets the whole First Letters loop running on Apple silicon, without downloading whole volumes. `render.py` is a small Python streaming renderer. The official `vc_render_tifxyz` in the VC3D macOS release can also stream remote volumes (`-v https://...`). Everything here was run on an M5 Pro MacBook with 64 GB of RAM.
 
+What's here:
+- **On a Mac:** `first_letters_mac.sh` runs one command from a scroll's published representations to ink review sheets. Details below.
+- **Free, with no hardware:** `kaggle/vesuvius_band.ipynb` runs a whole-band CUDA spiral fit → ink on Kaggle's free 2×T4 GPUs. The fit runs at 2.1 it/s, about 24 minutes per 1000-slice band.
+- **Held-out accuracy:** `bench/RESULTS.md` scores the pipeline against `ink_9um`'s published validation labels. The ensemble's mean AUROC is 0.902 from streamed renders vs. 0.908 from the official surface volumes.
+- **Where we already looked:** `atlas/ATLAS.md` lists 178 surfaces (832 cm²) on 4 scrolls scanned with negative results, with coverage maps, so the next person can skip them.
+
 | Stage | Script | What it does |
 |---|---|---|
 | Rendering | `render.py` | Renders a tifxyz mesh into a surface-volume zarr. It fetches only the 128³ chunks the mesh touches, over plain HTTPS from `vesuvius-challenge-open-data`, into a local cache. It handles any mesh pyramid frame (`--frame-level`) and any sampling level, plus an optional k×k×k mean-pool (`--pool`). |
