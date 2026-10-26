@@ -17,3 +17,14 @@ python bench/report.py bench/data bench            # RESULTS.md, results.json
 
 About 3.5 GB of CT chunks are cached (`CHUNK_CACHE`, default `cache/`). The 18 inference runs
 take about 13 minutes on an M5 Pro.
+
+## Resolution sensitivity (9.36 µm scans)
+
+[RESULTS9.md](RESULTS9.md) scores `ink_9um` on the 9.362 µm scans of the two validation segments that have one. It compares that with 2.4 µm level 2, in full and screen50 modes. The result: no collapse, but mean AUROC falls by 0.05 on official 9 µm input, and by 0.085 in the band-sweep setting (screen50 on streamed renders).
+
+```bash
+python bench/res9.py prepare bench/data <case>   # 9.36 um inputs + ECC registration onto the label grid
+bench/run_infer9.sh bench/data <case>
+python bench/res9.py score bench/data <case>
+python bench/res9.py control bench/data <case>   # resampling-only control
+```
