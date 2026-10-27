@@ -6,11 +6,21 @@ Hunt for First Letters on an Apple-silicon laptop. No NVIDIA GPU, no bulk volume
 
 The [Vesuvius Challenge](https://scrollprize.org) tutorials are written around CUDA GPUs, and several steps (ink models, spiral fitting, the `vesuvius[models]` install) did not run on a Mac. This repo gets the whole First Letters loop running on Apple silicon, without downloading whole volumes. `render.py` is a small Python streaming renderer. The official `vc_render_tifxyz` in the VC3D macOS release can also stream remote volumes (`-v https://...`). Everything here was run on an M5 Pro MacBook with 64 GB of RAM.
 
-What's here:
-- **On a Mac:** `first_letters_mac.sh` runs one command from a scroll's published representations to ink review sheets. Details below.
-- **Free, with no hardware:** `kaggle/vesuvius_band.ipynb` runs a whole-band CUDA spiral fit → ink on Kaggle's free 2×T4 GPUs. The fit runs at 2.1 it/s, about 24 minutes per 1000-slice band.
-- **Held-out accuracy:** `bench/RESULTS.md` scores the pipeline against `ink_9um`'s published validation labels. The ensemble's mean AUROC is 0.902 from streamed renders vs. 0.908 from the official surface volumes.
-- **Where we already looked:** `atlas/ATLAS.md` lists 178 surfaces (832 cm²) on 4 scrolls scanned with negative results, with coverage maps, so the next person can skip them.
+## What this contributes
+
+| # | Contribution | Measured result | Where |
+|---|---|---|---|
+| 1 | **First Letters loop on a Mac**: one command from a scroll's published representations to ink review sheets | PHerc0846A band z 1300–1500 end to end in 30 min on an M5 Pro | `first_letters_mac.sh`, below |
+| 2 | **Free path with no hardware**: whole-band CUDA spiral fit → ink on Kaggle's free 2×T4 | fit at 2.1 it/s, about 24 min per 1000-slice band | `kaggle/` |
+| 3 | **Held-out benchmark** of the streamed-render pipeline against `ink_9um`'s published validation labels | ensemble mean AUROC 0.902 (streamed render) vs. 0.908 (official surface volume) | `bench/RESULTS.md` |
+| 4 | **Resolution sensitivity**: first measurement of what `ink_9um` loses on the 9.36 µm scans most band sweeps use | mean AUROC 0.900 → 0.854 (official input); 0.884 → 0.800 for the single-model screen on streamed renders; resampling control ≤0.006 | `bench/RESULTS9.md` |
+| 5 | **9 µm fine-tune + mirror TTA** of `ink_9um` on native 9.362 µm labels (recipe fixed in advance, held-out regions never trained on) | band-sweep screen 0.800 → 0.853 → **0.863** AUROC (AP 0.693 → 0.766 → 0.792), both held-out regions up | `bench/FT9_RESULTS.md` |
+| 6 | **Tile-score audit**: the sweep's forward/reverse ranking puts real held-out 9 µm text below artifacts | text 0.076–0.079 vs. artifacts 0.17–0.30 | `bench/SCORE_NOTE.md` |
+| 7 | **Coverage atlas** of surfaces already searched, so the next person can skip or re-check them | 178 surfaces, 832 cm², 4 scrolls; ~9 µm rows marked "screened", not "shown empty" | `atlas/ATLAS.md` |
+| 8 | **Streaming renderer** with a half-pixel fix (`cv2.remap`, not `cv2.resize`) | NCC 0.968 vs. the published surface volume, zero offset | `render.py` |
+| 9 | **Three upstream PRs to ScrollPrize/villa**: spiral fitting on MPS (sampler crash, negative seed, 0.35 GB/step driver leak), a `models-core` extra that installs on macOS, and a "First Letters on a Mac" tutorial | MPS fit ~1.1 it/s vs. 0.47 on CPU, 4.5 GB steady; 998 tests pass, same 21 pre-existing failures as `main` | [Upstream PRs](#upstream-prs) |
+
+Reproduce any number above from the commands in the linked file. `bench/README.md` has the benchmark commands.
 
 | Stage | Script | What it does |
 |---|---|---|
@@ -45,7 +55,7 @@ hf download scrollprize/ink_9um hybrid_3d2d-seed42/step-075000.pth hybrid_3d2d-s
 gh release download latest -R ScrollPrize/villa -p '*macos-arm64.zip' && unzip -d tools VC3D-*.zip   # vc_grow_seg_from_seed
 ```
 
-If you install `vesuvius` itself instead of using `PYTHONPATH`, `uv sync --extra models-core` in `villa/vesuvius` avoids building the C++ bindings. That extra exists only once [ScrollPrize/villa PR: models-core extra] is merged.
+If you install `vesuvius` itself instead of using `PYTHONPATH`, `uv sync --extra models-core` in `villa/vesuvius` avoids building the C++ bindings. That extra exists only once PR B (see [Upstream PRs](#upstream-prs)) is merged.
 
 ## One command: published representations → ink review sheets
 
@@ -99,7 +109,7 @@ GrowPatch quirks:
 
 ### Spiral fitting on a Mac
 
-`villa/spiral-fitting` runs on MPS once ScrollPrize/villa PR "spiral-fitting: make weighted track sampling work on MPS" is merged. Without it:
+`villa/spiral-fitting` runs on MPS once PR A (see [Upstream PRs](#upstream-prs)) is merged. Without it:
 - `torch.multinomial` asks Metal for an 80 GB buffer and aborts;
 - the crossing seed comes back negative;
 - driver memory grows by 0.35 GB per step, because MPS keeps a compiled graph with its own buffers for every new track-sample size.
@@ -118,11 +128,19 @@ The fit dataset was built from public representations only:
 
 ## Negative results
 
-About 200 cm² of clean GrowPatch surface on PHerc0800, PHerc1203 and PHerc0846A was scanned with the ensemble. None of it showed line-structured text. Every candidate "letter" traced back to one of two things:
+See `atlas/ATLAS.md`: 178 surfaces (832 cm²) on PHerc0800, PHerc1203, PHerc0846A and PHerc0826, with coverage maps. None showed line-structured text. Every candidate "letter" traced back to one of two things:
 - void or crack rims;
 - strokes that appear in *both* depth directions, which means torn papyrus.
 
+The ~9 µm rows are weaker evidence than the 2.4 µm rows, as `bench/RESULTS9.md` and `bench/SCORE_NOTE.md` explain.
+
 Hecate 9.6 µm was no better than `ink_9um` on the control and about 10× slower on MPS.
+
+## Upstream PRs
+
+- **PR A**, ScrollPrize/villa#PR_A: spiral-fitting: run track-based fits on MPS
+- **PR B**, ScrollPrize/villa#PR_B: vesuvius: add a models-core extra that skips the C++ bindings
+- **PR C**, ScrollPrize/villa#PR_C: docs: add "First Letters on a Mac" tutorial
 
 ## Data licence
 
