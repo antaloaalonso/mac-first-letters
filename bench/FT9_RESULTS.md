@@ -70,10 +70,10 @@ These come from a follow-up pass over the same two held-out regions, using the s
 | ft seed42 + base seed43, both `--tta-mirror` | 0.870 | 0.793 |
 | full 8-way dihedral TTA | 0.861 | 0.789 |
 | depth-window shifts / pooling (±1, ±2) | 0.851–0.866 | 0.770–0.800 |
-| `--direction both` (forward + reverse averaged) | 0.776 | 0.617 |
+| forward and reverse maps averaged | 0.776 | 0.617 |
 
 - **Mirror TTA improves both regions** (w016 0.868 → 0.885, PHerc0814 0.838 → 0.842) and costs 4× inference. It is the standard choice, not the argmax, so it is the one adopted.
-- **`--direction reverse` scores at chance (0.52)**, so averaging it with the forward pass halves the signal. Use the forward direction only.
+- **`--direction reverse` scores at chance (0.52)**, so averaging the reverse map into the forward one halves the signal. `--direction both` is still fine: it writes `pred.tif` and `pred_reverse.tif` separately, and the reverse map is useful as a check for tears. Just don't average it in.
 - **The base seed43 partner is weakly selected:** the "free side result" above was measured on the same regions.
 
 Updated recommendation: screen with `ft9_seed42.pth --tta-mirror`.
