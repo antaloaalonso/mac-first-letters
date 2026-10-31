@@ -18,7 +18,7 @@ The [Vesuvius Challenge](https://scrollprize.org) tutorials are written around C
 | 6 | **Tile-score audit**: the sweep's forward/reverse ranking puts real held-out 9 µm text below artifacts | text 0.076–0.079 vs. artifacts 0.17–0.30 | `bench/SCORE_NOTE.md` |
 | 7 | **Coverage atlas** of surfaces already searched, so the next person can skip or re-check them | 178 surfaces, 832 cm², 4 scrolls; ~9 µm rows marked "screened", not "shown empty" | `atlas/ATLAS.md` |
 | 8 | **Streaming renderer** with a half-pixel fix (`cv2.remap`, not `cv2.resize`) | NCC 0.968 vs. the published surface volume, zero offset | `render.py` |
-| 9 | **Three upstream PRs to ScrollPrize/villa**: spiral fitting on MPS (sampler crash, negative seed, 0.35 GB/step driver leak), a `models-core` extra that installs on macOS, and a "First Letters on a Mac" tutorial | MPS fit ~1.1 it/s vs. 0.47 on CPU, 4.5 GB steady; 999 tests pass, same 21 pre-existing failures as `main` | [Upstream PRs](#upstream-prs) |
+| 9 | **Three upstream PRs to ScrollPrize/villa**: spiral fitting on MPS (sampler crash, negative seed, 0.35 GB/step driver leak), a `models-core` extra that installs on macOS, and a "First Letters on a Mac" tutorial | MPS fit ~1.1 it/s vs. 0.47 on CPU, 4.5 GB steady; 1011 tests pass on villa `main` a23ec7c, with only the 21 failures already on `main` | [Upstream PRs](#upstream-prs) |
 
 Reproduce any number above from the commands in the linked file. `bench/README.md` has the benchmark commands.
 

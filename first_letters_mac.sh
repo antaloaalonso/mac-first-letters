@@ -20,13 +20,18 @@
 set -euo pipefail
 [ $# -eq 4 ] || { sed -n 2,20p "$0"; exit 2; }
 SCROLL=$1; VOL_ID=$2; Z0=$3; Z1=$4
+# Paths given in DATA_DIR / WORK / CHUNK_CACHE are relative to where you ran the script.
+abspath() { case $1 in /*) echo "$1";; *) echo "$PWD/$1";; esac; }
+[ -n "${DATA_DIR:-}" ] && DATA_DIR=$(abspath "$DATA_DIR")
+[ -n "${WORK:-}" ] && WORK=$(abspath "$WORK")
+[ -n "${CHUNK_CACHE:-}" ] && CHUNK_CACHE=$(abspath "$CHUNK_CACHE")
 ROOT=$(cd "$(dirname "$0")" && pwd); cd "$ROOT"
 S3=https://vesuvius-challenge-open-data.s3.amazonaws.com
 PY=$ROOT/.venv/bin/python; SPY=$ROOT/villa/spiral-fitting/.venv/bin/python
 VC=$ROOT/tools/VC3D.app/Contents/MacOS
 STEPS=${STEPS:-3000}; DEVICE=${DEVICE:-mps}; SEEDS_PER_Z=${SEEDS_PER_Z:-4}
 DATA=${DATA_DIR:-$ROOT/data/${SCROLL}_$VOL_ID}
-RUN=${SCROLL}_${Z0}_${Z1}; W=$ROOT/${WORK:-work}/$RUN; DS=$W/dataset
+RUN=${SCROLL}_${Z0}_${Z1}; W=${WORK:-$ROOT/work}/$RUN; DS=$W/dataset
 mkdir -p "$W" "$DS/tracks" "$DS/verified_patches"
 export OMP_NUM_THREADS=${OMP_NUM_THREADS:-4} CHUNK_CACHE=${CHUNK_CACHE:-$ROOT/cache}
 log() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$W/pipeline.log"; }
