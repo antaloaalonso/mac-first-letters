@@ -138,9 +138,9 @@ Hecate 9.6 µm was no better than `ink_9um` on the control and about 10× slower
 
 ## Upstream PRs
 
-- **PR A**, ScrollPrize/villa#PR_A: spiral-fitting: run track-based fits on MPS
-- **PR B**, ScrollPrize/villa#PR_B: vesuvius: add a models-core extra that skips the C++ bindings
-- **PR C**, ScrollPrize/villa#PR_C: docs: add "First Letters on a Mac" tutorial
+- **PR A**, ScrollPrize/villa#2393: spiral-fitting: run track-based fits on MPS
+- **PR B**, ScrollPrize/villa#2394: vesuvius: add a models-core extra that skips the C++ bindings
+- **PR C**, ScrollPrize/villa#2395: docs: add "First Letters on a Mac" tutorial
 
 ## Data licence
 
